@@ -1,0 +1,16 @@
+{
+  "name": "auto-send-email",
+  "version": "1.0.0",
+  "description": "掘金定时发布文章",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node index.js"
+  },
+  "author": "ccy",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dayjs": "^1.10.7",
+    "node-fetch": "2.6.1",
+    "nodemailer": "6.6.3"
+  }
+}
